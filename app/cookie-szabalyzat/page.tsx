@@ -12,7 +12,6 @@ export default function CookiePage() {
     <LegalPage
       eyebrow="Jogi tájékoztatás"
       title="Cookie szabályzat"
-      updated="2026. január"
       intro="Ez a szabályzat ismerteti, milyen sütiket (cookie-kat) használ a weboldal, és hogyan kezelheted ezeket a beállításaidban."
       sections={[
         {

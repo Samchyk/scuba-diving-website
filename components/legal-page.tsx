@@ -5,13 +5,11 @@ export type LegalSection = { heading: string; body: string[] }
 export function LegalPage({
   eyebrow,
   title,
-  updated,
   intro,
   sections,
 }: {
   eyebrow: string
   title: string
-  updated: string
   intro: string
   sections: LegalSection[]
 }) {
@@ -23,9 +21,6 @@ export function LegalPage({
       <h1 className="mt-5 text-balance font-heading text-4xl font-light leading-tight text-foreground md:text-5xl">
         {title}
       </h1>
-      <p className="mt-4 font-mono text-xs uppercase tracking-[0.2em] text-muted-foreground/70">
-        Utolsó frissítés: {updated}
-      </p>
       <p className="mt-8 text-pretty text-lg leading-relaxed text-muted-foreground">
         {intro}
       </p>
